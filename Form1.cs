@@ -39,7 +39,12 @@ namespace pryInicioSesionLogs
 
                     txtUsuario.Clear();
                     txtContraseña.Clear();
+
+                    frmAdministrador frm = new frmAdministrador();
+                    frm.ShowDialog();
                 }
+
+
 
                
             }

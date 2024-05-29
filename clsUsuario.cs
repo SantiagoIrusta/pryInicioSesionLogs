@@ -108,6 +108,28 @@ namespace pryInicioSesionLogs
             }
         }
 
+        public void NuevoUsuario()
+        {
+            DataTable dtUsuarios = new DataTable();
+            
+            //try
+            //{
+            //    // genera un nuevo DataRow
+            //    DataRow nuevo = dtUsuarios.NewRow();
+            //    nuevo["IdCantante"] = Id;
+            //    nuevo["Nombre"] = Nombre;
+            //    // lo agrega a la tabla
+            //    dtUsuarios.Rows.Add(nuevo);
+            //    // actualiza los cambios en la base de datos
+            //    da.Update(dtCantantes);
+            //    resultado = true;
+            //}
+            //catch (Exception ex)
+            //{
+            //    ERROR = ex.Message;
+            //}
+        }
+
 
     }
 }
